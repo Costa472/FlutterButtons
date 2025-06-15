@@ -16,12 +16,13 @@ class MyApp extends StatefulWidget {
 
 
 /**
- *
+ * change for commit
  * Here where we change: WidgetBuild == Rendering the page
  */
 class _State extends State<MyApp> {
 // Global variables
   int _value= 0;
+  int j=0;
   String _timeheure= 'Hello\n${DateTime.now().toString()}';
   String _valuue = 'SALAM';
 
@@ -112,7 +113,4 @@ class _State extends State<MyApp> {
               ],
             ),
           )
-      ),
-    );
-  }
-}
+      
